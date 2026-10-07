@@ -1,3 +1,5 @@
+> **Status (after filing):** already tracked in [oxc-project/oxc#27084](https://github.com/oxc-project/oxc/issues/27084) (oxlint matches type-aware line directives only against tsgolint's main range). Fix in progress: [oxc-project/oxc#27109](https://github.com/oxc-project/oxc/pull/27109). [oxc-project/tsgolint#1262](https://github.com/oxc-project/tsgolint/issues/1262) was closed as a duplicate.
+
 **Title:** `no-unsafe-type-assertion`: `oxlint-disable-next-line` above a multi-line assertion no longer applies since 7.0.2002
 
 ---

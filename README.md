@@ -1,5 +1,7 @@
 # oxlint-tsgolint: `oxlint-disable-next-line` no longer suppresses multi-line `no-unsafe-type-assertion`
 
+> **Status:** already tracked in [oxc-project/oxc#27084](https://github.com/oxc-project/oxc/issues/27084) (oxlint matches type-aware line directives only against tsgolint's main range). Fix in progress: [oxc-project/oxc#27109](https://github.com/oxc-project/oxc/pull/27109). [oxc-project/tsgolint#1262](https://github.com/oxc-project/tsgolint/issues/1262) was closed as a duplicate.
+
 Since `oxlint-tsgolint@7.0.2002`, a `// oxlint-disable-next-line typescript/no-unsafe-type-assertion` comment on the line before a multi-line `as` assertion no longer suppresses the diagnostic. It works with `oxlint-tsgolint@7.0.2001`. Single-line assertions are not affected.
 
 ## Reproduce
